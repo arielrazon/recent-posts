@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        a{
+            text-decoration:none;
+            color:none;
+        }
+        body{
+            font-family:sans-serif;
+        }
+
+        h2{
+            font-weight:600;
+        }
+        .blog-recent-posts-header {
+            margin: 0 auto;
+            text-align: center;
+            color:rgb(0,0,33)
+        }
+
+        .blog-recent-posts {
+            display: flex;
+            margin:2rem 6rem 3rem 6rem;
+        }
+
+        .blog-entry{
+            margin:1em;
+        }
+
+        .blog-img{
+            max-width:100%;
+            height:auto;
+            width:20rem;
+            min-width:5rem;
+            border-radius:5px;
+            
+        }
+        
+        .blog-details div{
+            margin-left:1rem;
+            line-height:1.5rem;
+        }
+
+        .blog-author-data{
+            display:flex;
+            flex-wrap: wrap;
+            margin-top:1rem;
+            font-size:.9rem;
+        }
+
+        .blog-author-img{
+            height:auto;
+            max-width:3rem;
+            min-width:1.5rem;
+            border-radius:100px;
+        }
+
+        .author-name{
+            color:rgb(9, 9, 48);
+            font-weight:200;
+        }
+
+        .author-date{
+            color:rgb(150,157,162);
+            font-size:0.75rem;
+        }
+
+        #blog-more-posts {
+            display: block;
+            background-image: linear-gradient(rgb(0, 147, 247), rgb(0, 120, 246));
+            border-radius: 80px;
+            padding: 0.7em 1.25em 0.7em 1.25em;
+            width:9em;
+            margin: 0 auto;
+        }
+
+        #blog-more-posts a {
+            margin: 0 auto;
+            display: block;
+           color:white;
+           text-align:center;
+           font-size:0.75rem;
+           font-weight:700;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="blog-recent-posts-header">The latest from our blog</h2>
+    <div class="blog-recent-posts">
+        <div class="blog-entry">
+            <a href="https://www.staging.webcreek.com/en/blog/businesssoftware-developmenttechnology/5-iot-implementations-boosting-construction-efficiency" target="_blank"><img src="./headings/anelisse_post.webp" alt="5 IoT Implementation Boosting Construction Efficiency" class="blog-img"></a>
+            <div class="blog-author-data">
+                <img src="./icons/Anelisse.webp" alt="Anelisse Chanakos Photo" class="blog-author-img">
+                <div class="blog-details">
+                    <div class="author-name">By Anelisse Chanakos</div>
+                    <div class="author-date">April 12,2022</div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-entry">
+            <a href="https://www.staging.webcreek.com/en/blog/software-development/industries-benefiting-from-webcreeks-software-solutions/" target="_blank"><img src="./headings/jbott_post.webp" alt="Industries Benefiting from WebCreek's Software Solutions" class="blog-img"></a>
+            <div class="blog-author-data">
+                <img src="./icons/jbott.webp" alt="Jason Bott Photo" class="blog-author-img">
+                <div class="blog-details">
+                    <div class="author-name">By Jason Bott</div>
+                    <div class="author-date">April 12,2022</div>
+                </div>
+            </div>
+        </div>
+        <div class="blog-entry">
+            <a href="https://www.staging.webcreek.com/en/blog/software-development/advantages-disadvantages-of-c/" target="_blank"><img src="./headings/ppazmino_post.webp" alt="blog image" class="blog-img"></a>
+            <div class="blog-author-data">
+                <img src="./icons/ppazmino.webp" alt="Pedro Pazmino Photograph" class="blog-author-img">
+                <div class="blog-details">
+                    <div class="author-name">By Pedro Pazmiño</div>
+                    <div class="author-date">April 12,2022</div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="blog-more-posts"><a href="https://www.staging.webcreek.com/en/blog">More From Our Blog &#8594;</a>
+    </div>
+</body>
+
+</html>
