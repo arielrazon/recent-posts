@@ -55,7 +55,7 @@
 
         .blog-author-img{
             height:auto;
-            max-width:3rem;
+            max-height:2rem;
             min-width:1.5rem;
             border-radius:100px;
         }
@@ -87,6 +87,12 @@
            font-size:0.75rem;
            font-weight:700;
            
+        }
+
+        @media screen and (max-width:800px){
+            .blog-recent-posts{
+                flex-direction:column;
+            }
         }
     </style>
 </head>
